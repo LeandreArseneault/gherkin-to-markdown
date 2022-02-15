@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='gherkin-to-markdown',
-    version='0.0.2',
+    version='0.0.3',
     author="Léandre Arseneault",
     author_email="arseneault.leandre@gmail.com",
     description="A converter from Gherkin feature files to markdown files.",

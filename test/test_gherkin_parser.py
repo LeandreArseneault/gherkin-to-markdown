@@ -129,8 +129,10 @@ def test_data_table():
 Examples:
 | state   | action   | result   |
 | state 1 | action 1 | result 1 |
-| state 2 | action 2 | result 2 |"""
+| state 2 | action 2 | result 2 |
+
+"""
     lines = data_table.splitlines()
     result: str = GherkinParser(lines).to_markdown()
     assert result == f"### Examples\n\n{lines[2].strip()}\n|---------|----------|----------|\n" \
-                     f"{lines[3].strip()}\n{lines[4].strip()}\n"
+                     f"{lines[3].strip()}\n{lines[4].strip()}\n\n"
