@@ -1,5 +1,5 @@
-from expressions.indented_text_expression import IndentedTextExpression
-from expressions.code_block_expression import CodeBlockExpression
+from gherkin_to_markdown.expressions.indented_text_expression import IndentedTextExpression
+from gherkin_to_markdown.expressions.code_block_expression import CodeBlockExpression
 from gherkin_to_markdown.expressions.background_expression import BackgroundExpression
 from gherkin_to_markdown.expressions.empty_expression import EmptyExpression
 from gherkin_to_markdown.expressions.example_expression import ExampleExpression
